@@ -7,6 +7,7 @@ export default function App() {
   const traverseData = data.map((entry) => {
     return (
        <Entry
+            key={entry.id}
             src={entry.img.src}
             alt={entry.img.alt}
             title={entry.title}
