@@ -1,6 +1,6 @@
 import Header from './components/Heading.jsx'
 import Entry from './components/Entry.jsx'
-import japan from '../images/japan.png'
+import japan from './images/japan.png'
 
 export default function App() {
   return (
