@@ -6,7 +6,7 @@ export default [
     {
         id: 1,
         img: {
-            src: {Japan},
+            src: Japan,
             alt: "Mount Fuji"
         },
         title: "Mount Fuji",
@@ -18,7 +18,7 @@ export default [
     {
         id: 2,
         img: {
-            src: {Australia},
+            src: Australia,
             alt: "Sydney Opera House"
         },
         title: "Sydney Opera House",
