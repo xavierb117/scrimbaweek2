@@ -7,7 +7,8 @@ export default function App() {
   const traverseData = data.map((entry) => {
     return (
        <Entry
-            img={entry.img}
+            src={entry.img.src}
+            alt={entry.img.alt}
             title={entry.title}
             country={entry.country}
             googleMapsLink={entry.googleMapsLink}
